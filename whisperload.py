@@ -3,7 +3,11 @@ import whisper
 print("Loading / Updating whisper models...")
 cont = False
 
+
 available_models = whisper.available_models()
+
+available_models = whisper.available_models()
+
 
 print("Available models: " + str(available_models))
 def load_model():
@@ -14,8 +18,10 @@ for model in available_models:
     whisper.load_model()
 
 print("Done!")
+
 if print ('Done'):
     cont = True 
+
 
 
 
