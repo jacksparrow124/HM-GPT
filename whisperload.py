@@ -6,7 +6,6 @@ cont = False
 
 available_models = whisper.available_models()
 
-available_models = whisper.available_models()
 
 
 print("Available models: " + str(available_models))
