@@ -1,7 +1,7 @@
 import whisperload
 
 print("Loading / Updating whisper models...")
-
+cont = False
 
 available_models = whisperload.available_models()
 
@@ -14,7 +14,7 @@ for model in available_models:
     whisperload.load_model()
 
 print("Done!")
-
+cont = True
 
 
 
