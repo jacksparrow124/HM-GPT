@@ -1,31 +1,28 @@
-import whisperload
-import whisper 
-
-on = True
-if on == True:
-
-    print("Loading / Updating whisper models...")
-    cont = False
-
-
-    available_models = whisper.available_models()
+import os
+import openai
+openai.api_key = os.getenv("OPENAI_API_KEY")
 
 
 
-    print("Available models: " + str(available_models))
-    def load_model():
-        load_model = import whisper.available_models
-    model = whisper
-    for model in available_models:
-        print("Downloading model: " + model)
-        whisper.load_model()
-
-    print("Done!")
-
-    if print ('Done'):
-     cont = True 
 
 
+
+def speechToText(mp3):
+    input = audio_file("path/to/file/audio.mp3")
+    audio_file = open(input)
+    transcript = openai.Audio.transcribe("whisper-1", audio_file)
+
+def textToSpeech(text):
+    
+
+def chat(input): 
+    completion = openai.ChatCompletion.create(
+    model="gpt-3.5-turbo",
+    messages=[
+        ("role": "user", "content": "%i"% input)
+    ]
+    )
+    print(completion)
 
 
 
