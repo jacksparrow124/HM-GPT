@@ -3,7 +3,10 @@ from dotenv import load_dotenv
 import openai
 
 load_dotenv()
+
 openai.api_key = os.getenv("Your openai key 🙂 requires paid account")
+
+
 
 
 
@@ -22,7 +25,11 @@ openai.api_key = os.getenv("Your openai key 🙂 requires paid account")
 def chat(input): 
     completion = openai.ChatCompletion.create(
     model="gpt-3.5-turbo",
+
     messages=[{"role": "user", "content": input}]
+
+    messages=[{"role": "user", "content": "%i"}%input]
+
     )
     print(completion)
 
