@@ -2,26 +2,16 @@ import os
 from dotenv import load_dotenv
 import openai
 
-
-
-
-
 load_dotenv()
-
 openai.api_key = os.getenv("your openai key")
 
 
+#def speechToText(mp3):
+#   input = audio_file("path/to/file/audio.mp3")
+#  audio_file = open(input)
+# transcript = openai.Audio.transcribe("whisper-1", audio_file)
 
-
-
-
-
-    #def speechToText(mp3):
-    #   input = audio_file("path/to/file/audio.mp3")
-    #  audio_file = open(input)
-    # transcript = openai.Audio.transcribe("whisper-1", audio_file)
-
-    #def textToSpeech(text):
+#def textToSpeech(text):
         
 
 
@@ -34,9 +24,9 @@ def chat(input):
     #messages=[{"role": "user", "content": "%i"}%input]
 
     )
-
     return completion
 
+#begin main loop
 print("welcome. My name is burt. i will be helping you today... 😈")
 while True:
     question=input(">>>")
