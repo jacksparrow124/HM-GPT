@@ -8,10 +8,9 @@ import openai
 
 load_dotenv()
 
-openai.api_key = os.getenv("your openai account key")
+openai.api_key = os.getenv("your openai key")
 
 
-print(openai.api_key)
 
 
 
