@@ -5,7 +5,6 @@ import openai
 load_dotenv()
 openai.api_key = os.getenv("your openai key")
 
-
 #def speechToText(mp3):
 #   input = audio_file("path/to/file/audio.mp3")
 #  audio_file = open(input)
@@ -13,7 +12,6 @@ openai.api_key = os.getenv("your openai key")
 
 #def textToSpeech(text):
         
-
 
 def chat(input): 
     completion = openai.ChatCompletion.create(
