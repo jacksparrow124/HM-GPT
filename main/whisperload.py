@@ -1,4 +1,4 @@
-import whisper
+import whisper 
 
 print("Loading / Updating whisper models...")
 cont = False
@@ -18,8 +18,7 @@ for model in available_models:
 
 print("Done!")
 
-if print ('Done'):
-    cont = True 
+
 
 
 
