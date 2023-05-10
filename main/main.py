@@ -19,7 +19,7 @@ def chat(input):
 
     messages=[{"role": "user", "content": input}]
 
-    #messages=[{"role": "user", "content": "%i"}%input]
+   
 
     )
     return completion
@@ -29,7 +29,7 @@ print("welcome. My name is burt. i will be helping you today... 😈")
 while True:
     question=input(">>>")
     response=chat(question)
-    print( response["choices"][0]["message"]["content"])
+    print(response["choices"][0]["message"]["content"])
     
 
 
