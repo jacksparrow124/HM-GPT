@@ -3,7 +3,7 @@ from dotenv import load_dotenv
 import openai
 
 load_dotenv()
-openai.api_key = os.getenv("your openai key")
+openai.api_key = os.getenv("OPENAI_API_KEY2")
 
 #def speechToText(mp3):
 #   input = audio_file("path/to/file/audio.mp3")
