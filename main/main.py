@@ -5,13 +5,13 @@ import openai
 load_dotenv()
 openai.api_key = os.getenv("OPENAI_API_KEY2")
 
-#def speechToText(mp3):
-#   input = audio_file("path/to/file/audio.mp3")
-#  audio_file = open(input)
-# transcript = openai.Audio.transcribe("whisper-1", audio_file)
+def speechToText(mp3):
+    input = audio_file("path/to/file/audio.mp3")
+    audio_file = open(input)
+    transcript = openai.Audio.transcribe("whisper-1", audio_file)
 
-#def textToSpeech(text):
-        
+def textToSpeech(text):
+       #text to speech using whisper library 
 
 def chat(input): 
     completion = openai.ChatCompletion.create(
@@ -29,7 +29,7 @@ print("welcome. My name is burt. i will be helping you today... 😈")
 while True:
     question=input(">>>")
     response=chat(question)
-    print(response["choices"][0]["message"]["content"])
+    chat(response["choices"][0]["message"]["content"])
     
 
 
