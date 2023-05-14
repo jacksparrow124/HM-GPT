@@ -10,17 +10,14 @@ def speechToText(mp3):
     audio_file = open(input)
     transcript = openai.Audio.transcribe("whisper-1", audio_file)
 
-def textToSpeech(text):
+#commenting out open function block that was causing compile errors. Uncomment when there is code to put in here
+#def textToSpeech(text):
        #text to speech using whisper library 
 
 def chat(input): 
     completion = openai.ChatCompletion.create(
     model="gpt-3.5-turbo",
-
     messages=[{"role": "user", "content": input}]
-
-   
-
     )
     return completion
 
