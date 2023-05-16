@@ -3,5 +3,6 @@
 <ul> 
   <li>Requirments 💾</li>
   <li>how it works 🖥️ </li>
-  <li> Setup 📑 </li>
+  <li>  </li>
 
+  <h2> Setup</h2>
