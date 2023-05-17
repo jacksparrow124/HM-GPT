@@ -1,12 +1,10 @@
-import whisper 
+from openai import whisper 
 
 print("Loading / Updating whisper models...")
 cont = False
 
 
 available_models = whisper.available_models()
-
-
 
 print("Available models: " + str(available_models))
 def load_model():
