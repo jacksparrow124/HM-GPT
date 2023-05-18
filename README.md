@@ -14,10 +14,10 @@
     <li>a paid openai account with api key</li>
     <li>a small microphone</li>
     <li>a small speaker</li>
-    <p>amazon links:</p>
-    <li>https://www.adafruit.com/product/1063</li>
-    <li>https://www.adafruit.com/product/1314</li>
-    <li>https://www.adafruit.com/product/5525</li>
+    <p>links:</p>
+    <li>microphone: https://www.adafruit.com/product/1063</li>
+    <li>speaker: https://www.adafruit.com/product/1314</li>
+    <li>Raspberry Pi Pico: https://www.adafruit.com/product/5525</li>
     
 <h2>how it works</h2>
   <p>
