@@ -6,3 +6,6 @@
   <li>  </li>
 
   <h2> Setup</h2>
+  <h2>Requirements</h2>
+  <h2>how it works</h2>
+  
