@@ -25,4 +25,7 @@
  
 The second, optional part of the project is to create a "magic mirror" to house the home manager. Here's an example of what the final product COULD look like: https://www.youtube.com/watch?v=RFsIWtmc-WA
   </p>
-  
+ 
+
+[![Star History Chart](https://api.star-history.com/svg?repos=jacksparrow124/HM-Gpt&type=Date)](https://star-history.com/#jacksparrow124/HM-Gpt&Date)
+
