@@ -1,4 +1,5 @@
 <h1> Home Manager GPT</h1>
+<h3> Welcome! 😄</h3>
 <h2> overview </h2>
 <ul> 
   <li>Requirments 💾</li>
