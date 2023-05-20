@@ -26,7 +26,7 @@ print("welcome. My name is burt. i will be helping you today... 😈")
 while True:
     question=input(">>>")
     response=chat(question)
-    chat(response["choices"][0]["message"]["content"])
+chat(response["choices"][0]["message"]["content"])
     
 
 

@@ -1,4 +1,5 @@
 from openai import whisper 
+ 
 
 print("Loading / Updating whisper models...")
 cont = False
