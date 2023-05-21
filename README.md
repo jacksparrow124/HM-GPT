@@ -28,8 +28,7 @@ The second, optional part of the project is to create a "magic mirror" to house 
   </p>
     
 
-
-![env](https://github.com/jacksparrow124/HM-GPT/assets/130068292/e936214a-8715-4193-9686-743b0a44baf8)
+<img scr = "https://github.com/jacksparrow124/HM-GPT/assets/130068292/e936214a-8715-4193-9686-743b0a44baf8">
 
  
 
