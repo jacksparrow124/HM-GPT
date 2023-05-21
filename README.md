@@ -26,9 +26,10 @@
  
 The second, optional part of the project is to create a "magic mirror" to house the home manager. Here's an example of what the final product COULD look like: https://www.youtube.com/watch?v=RFsIWtmc-WA
   </p>
-    <h2>Setup, Continued</h2>
-    here is a diagram of what you need to do to the code in main.py.⬇️
-    [![openai](https://github.com/jacksparrow124/HM-GPT/assets/130068292/ed96595e-d924-4813-9b79-5742bc2ff5d3)!]
+    
+
+
+
 
  
 
