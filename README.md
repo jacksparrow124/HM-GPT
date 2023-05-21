@@ -2,7 +2,7 @@
 <h3> Welcome! 😄</h3>
 <h2> overview </h2>
 <ul> 
-  <li [Requirements] (https://github.com/jacksparrow124/HM-GPT#requirements-for-part-1)>Requirements</li>
+  <li href = "https://github.com/jacksparrow124/HM-GPT#requirements-for-part-1">Requirements</li>
   <li>how it works 🖥️ </li>
   <li>setup 🎈</li>
 <h2> Setup</h2>
