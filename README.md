@@ -32,5 +32,4 @@ The second, optional part of the project is to create a "magic mirror" to house 
 
  
 
-[![Star History Chart](https://api.star-history.com/svg?repos=jacksparrow124/HM-Gpt&type=Date)](https://star-history.com/#jacksparrow124/HM-Gpt&Date)
 
