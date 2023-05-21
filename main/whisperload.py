@@ -1,4 +1,4 @@
-from openai import whisper 
+import whisper  
  
 
 print("Loading / Updating whisper models...")
