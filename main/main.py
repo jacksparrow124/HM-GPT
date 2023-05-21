@@ -28,7 +28,7 @@ while True:
     question=input(">>>")
     response=chat(question)
    # print(response) (for debugging)
-    print(response["choices"][0]["message"]["content"]) # type: ignore
+    print(response["choices"][0]["message"]["content"]) #type: ignore
     
 
 
