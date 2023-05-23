@@ -26,6 +26,6 @@ The second, optional part of the project is to create a "magic mirror" to house 
 
 ![env](https://github.com/jacksparrow124/HM-GPT/assets/130068292/e936214a-8715-4193-9686-743b0a44baf8)
 
- 
+<h2> code to add and run</h2>
 
 
