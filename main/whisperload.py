@@ -1,9 +1,7 @@
 import whisper  
  
-
 print("Loading / Updating whisper models...")
 cont = False
-
 
 available_models = whisper.available_models()
 
