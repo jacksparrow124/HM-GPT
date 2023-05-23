@@ -11,12 +11,9 @@
   </p>
 <h2>Requirements for part 1</h2>
   <ul>
-    <li>1 raspberry Pi pico </li>
+
     <li>a paid openai account with api key</li>
-    <li>a small microphone</li>
-    <li>a small speaker</li>
-  <p>links:</p>
-    <li>microphone: https://www.adafruit.com/product/1063</li>
+    <li>a microphone:  https://www.adafruit.com/product/1063</li>
     <li>speaker: https://www.adafruit.com/product/1314</li>
     <li>Raspberry Pi Pico: https://www.adafruit.com/product/5525</li>
     
