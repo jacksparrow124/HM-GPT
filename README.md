@@ -11,7 +11,6 @@
   </p>
 <h2>Requirements for part 1</h2>
   <ul>
-
     <li>a paid openai account with api key</li>
     <li>a microphone:  https://www.adafruit.com/product/1063</li>
     <li>speaker: https://www.adafruit.com/product/1314</li>
