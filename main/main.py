@@ -3,9 +3,10 @@ from dotenv import load_dotenv
 import openai
 import time
 import smtplib
-from email.MIMEMultipart import MIMEMultipart
-from email.MIMEText import MIMEText
+#from email.MIMEMultipart import MIMEMultipart
+#from email.MIMEText import MIMEText
 import countio
+#import tiktoken
 
 load_dotenv()
 openai.api_key = os.getenv("OPENAI_API_KEY2")
@@ -34,17 +35,17 @@ while True:
     response=chat(question)
    # print(response) (for debugging)
     print(response["choices"][0]["message"]["content"]) #type: ignore
-    
-while time(2628000):
-    openai.tokens(countio)
 
-mailserver = smtplib.SMTP('smtp.gmail.com',)
-msg = MIMEMultipart()
-msg['From'] = ['gpt232323@gmail.com']
-msg['To'] = ['your email adress']
-msg['Subject'] = ['Your Monthly Token Usage And questions asked 🙂']
-message = ('Your monthly spending of tokens is: %i'% openai.tokens(countio))
-msg.attach(MIMEText(message))
+#while time(2628000):
+   # openai.tokens(tiktoken) #counts how many tokens used in 30 days
+#
+#mailserver = smtplib.SMTP('smtp.gmail.com',)
+#msg = MIMEMultipart()
+#msg['From'] = ['gpt232323@gmail.com']
+#msg['To'] = ['your email adress']
+#msg['Subject'] = ['Your Monthly Token Usage And questions asked 🙂']
+#message = ('Your monthly spending of tokens is: %i'% openai.tokens(tiktoken))
+#msg.attach(MIMEText(message))
 
 
 
