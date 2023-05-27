@@ -8,6 +8,7 @@ from gtts import gTTS
 # This module is imported so that we can 
 # play the converted audio
 import os
+from mpyg321.MPyg123Player import MPyg123Player
 
 class TextToSpeech:
     playExe=""
@@ -24,7 +25,8 @@ class TextToSpeech:
         # # welcome 
         myobj.save("welcome.mp3")
         # Playing the converted file
-        os.system("mpg321 welcome.mp3")
+        player = MPyg123Player()
+        player.play_song("welcome.mp3")
 
   
 
