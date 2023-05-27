@@ -8,7 +8,9 @@ from gtts import gTTS
 # This module is imported so that we can 
 # play the converted audio
 import os
-from mpyg321.MPyg123Player import MPyg123Player
+import pygame
+from pygame import mixer  # Load the popular external library
+import time
 
 class TextToSpeech:
     playExe=""
@@ -25,8 +27,15 @@ class TextToSpeech:
         # # welcome 
         myobj.save("welcome.mp3")
         # Playing the converted file
-        player = MPyg123Player()
-        player.play_song("welcome.mp3")
+        mixer.init()
+        mixer.music.load("welcome.mp3")
+        mixer.music.play()
+        while mixer.music.get_busy(): 
+            pygame.time.Clock().tick(10)
+        mixer.music.unload
+        mixer.quit
+        os.remove("welcome.mp3")
+        
 
   
 

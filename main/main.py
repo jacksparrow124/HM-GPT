@@ -26,10 +26,10 @@ speechToText=st.SpeechToText()
 textToSpeech=ts.TextToSpeech()
 while True:
     question=speechToText.processSpeech()
-    #response=chat(question)
+    response=chat(question)
     #print(response) #(for debugging)
-    #content=response["choices"][0]["message"]["content"]
-    content ="this is a test"
+    content=response["choices"][0]["message"]["content"]
+    #content ="this is a test"
     print(content) #type: ignore
     textToSpeech.processText(content)
 
