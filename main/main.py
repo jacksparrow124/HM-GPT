@@ -36,16 +36,7 @@ while True:
    # print(response) (for debugging)
     print(response["choices"][0]["message"]["content"]) #type: ignore
 
-#while time(2628000):
-   # openai.tokens(tiktoken) #counts how many tokens used in 30 days
-#
-#mailserver = smtplib.SMTP('smtp.gmail.com',)
-#msg = MIMEMultipart()
-#msg['From'] = ['gpt232323@gmail.com']
-#msg['To'] = ['your email adress']
-#msg['Subject'] = ['Your Monthly Token Usage And questions asked 🙂']
-#message = ('Your monthly spending of tokens is: %i'% openai.tokens(tiktoken))
-#msg.attach(MIMEText(message))
+
 
 
 

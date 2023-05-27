@@ -14,4 +14,3 @@ with sr.Microphone() as source:
         text = r.recognize_google(audio)
         print("Understood: %s" % text)
     except:
-        print("Couldnt recognize your voice")
