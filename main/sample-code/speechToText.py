@@ -18,7 +18,7 @@ with sr.Microphone(device_index=0) as source:
     print("Time over, thank you")
     #print(audio_text) <-- for debugging
     try:
-        # using google speech recognition
+        # using google speech recognition                             
         print("Question: "+recognizer.recognize_google(audio_text))
     except Exception as e:
          print(e)
