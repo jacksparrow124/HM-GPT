@@ -1,5 +1,5 @@
 # used this for reference: https://www.analyticsvidhya.com/blog/2021/12/guide-for-speech-recognition/
-#for some reason - it doesn't hear my voice on a mac. I will try it on windows when I get back and keep trying on mac during my trip. 
+
 import speech_recognition as sr
 
 # Initialize recognizer class (for recognizing the speech)
@@ -14,12 +14,12 @@ print(sr.Microphone.list_working_microphones())
 with sr.Microphone(device_index=0) as source:
     recognizer.adjust_for_ambient_noise(source,duration=1)
     print("Start Talking")
-    audio_text = recognizer.listen(source,timeout=5,phrase_time_limit=10)
+    audio_text = recognizer.listen(source,timeout=3,phrase_time_limit=5)
     print("Time over, thank you")
-    #print(audio_text)
+    #print(audio_text) <-- for debugging
     try:
         # using google speech recognition
-        print("Text: "+recognizer.recognize_google(audio_text))
+        print("Question: "+recognizer.recognize_google(audio_text))
     except Exception as e:
          print(e)
          print("Sorry, I did not get that")
