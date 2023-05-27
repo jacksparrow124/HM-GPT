@@ -10,6 +10,7 @@ from gtts import gTTS
 import os
 
 class TextToSpeech:
+    playExe=""
     def __init__(self) -> None:
         pass
   
@@ -23,7 +24,7 @@ class TextToSpeech:
         # # welcome 
         myobj.save("welcome.mp3")
         # Playing the converted file
-        os.system("afplay welcome.mp3")
+        os.system("mpg321 welcome.mp3")
 
   
 
