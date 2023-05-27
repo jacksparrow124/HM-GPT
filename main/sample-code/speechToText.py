@@ -14,7 +14,7 @@ print(sr.Microphone.list_working_microphones())
 with sr.Microphone(device_index=0) as source:
     recognizer.adjust_for_ambient_noise(source,duration=1)
     print("Start Talking")
-    audio_text = recognizer.listen(source,timeout=3,phrase_time_limit=5)
+    audio_text = recognizer.listen(source,timeout=10,phrase_time_limit=5)
     print("Time over, thank you")
     #print(audio_text) <-- for debugging
     try:

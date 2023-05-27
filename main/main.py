@@ -3,10 +3,6 @@ from dotenv import load_dotenv
 import openai
 import time
 import smtplib
-#from email.MIMEMultipart import MIMEMultipart
-#from email.MIMEText import MIMEText
-import countio
-#import tiktoken
 
 load_dotenv()
 openai.api_key = os.getenv("OPENAI_API_KEY2")
