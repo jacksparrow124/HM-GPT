@@ -21,7 +21,7 @@ def chat(input):
     return completion
 
 #begin main loop
-print("welcome. My name is burt. i will be helping you today... 😈")
+print("bienvenido. Mi nombre es burt. Te estaré ayudando hoy... 😈")
 speechToText=st.SpeechToText()
 textToSpeech=ts.TextToSpeech()
 while True:
