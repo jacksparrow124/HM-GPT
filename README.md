@@ -29,7 +29,7 @@ The second, optional part of the project is to create a "magic mirror" to house 
 
 
 <h2 align=left>Acessabitlity</h2>
-    <p> we are currently working on making spanish, chinese, and french versions of the interactive-ness. we would love for others to chip in and help with the effort. to acsess the other language's programs, go to main/main_(the language) and use that code. this will increase ability to customize dramatically.</p>
+    <p> we are currently working on making spanish, chinese, and french versions of the interactive-ness. we would love for others to chip in and help with the effort. to acsess the other language's programs, go to main/main_(the language) and use that code. this will increase ability to customize dramatically. for the time being, we will have the other languages' in main. Once we get the user 1st time start up working, we will move these to a diffrent repo. thanks for understanding! 🙂</p>
 
 
 
