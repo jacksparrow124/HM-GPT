@@ -24,8 +24,12 @@ The second, optional part of the project is to create a "magic mirror" to house 
   </p>
     
 
-![env](https://github.com/jacksparrow124/HM-GPT/assets/130068292/e936214a-8715-4193-9686-743b0a44baf8)
 
+
+
+
+<h2 align=left>Acessabitlity</h2>
+    <p> we are currently working on making spanish, chinese, and french versions of the interactive-ness. we would love for others to chip in and help with the effort. to acsess the other language's programs, go to main/main_(the language) and use that code. this will increase ability to customize dramatically.</p>
 
 
 
