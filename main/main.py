@@ -2,7 +2,7 @@ import os
 from dotenv import load_dotenv
 import openai
 import time
-
+import Settings 
 
 import SpeechToText as st
 import TextToSpeech as ts
