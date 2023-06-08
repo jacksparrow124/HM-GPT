@@ -41,6 +41,7 @@ class TextToSpeech:
         counter = counter + 1
         if counter == 10:
             counter = 1
+        os.remove(file_name)
 
         
         
