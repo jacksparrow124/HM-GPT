@@ -3,15 +3,12 @@ from dotenv import load_dotenv
 import openai
 import time
 
-
 import SpeechToText as st
 import TextToSpeech as ts
 
 
 load_dotenv()
 openai.api_key = os.getenv("OPENAI_API_KEY2")
-
-
 
 def chat(input): 
     completion = openai.ChatCompletion.create(
@@ -32,4 +29,3 @@ while True:
     #content ="this is a test"
     print(content) #type: ignore
     textToSpeech.processText(content)
-
