@@ -42,9 +42,4 @@ class TextToSpeech:
         if counter == 10:
             counter = 1
 
-        
-        
-
-  
-
-  
+    
