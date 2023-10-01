@@ -43,9 +43,4 @@ class TextToSpeech:
             counter = 1
         os.remove(file_name)
 
-        
-        
-
-  
-
-  
+    
