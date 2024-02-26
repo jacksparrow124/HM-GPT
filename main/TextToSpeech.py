@@ -39,8 +39,8 @@ class TextToSpeech:
         mixer.music.unload
         mixer.quit
         counter = counter + 1
-        if counter == 10:
+        if counter == 100:
             counter = 1
-        os.remove(file_name)
+        #os.remove(file_name)
 
     
